@@ -1,0 +1,12 @@
+[backend]
+34.239.132.158
+
+[backend:vars]
+ansible_host: "34.239.132.158"
+ansible_password: "hemaLATHA@9490"
+ansible_winrm_server_cert_validation: ignore
+ansible_connection: winrm
+ansible_user: sivareddy
+ansible_port: 5986
+
+
